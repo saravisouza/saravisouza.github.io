@@ -1,0 +1,38 @@
+html, body{
+ margin: 0;
+ text-align: center;
+}
+
+#imagem_fundo{
+   background-image: url();
+    background-size: cover;
+    height:100%;
+    padding:10px;
+}
+
+#titulo{
+    color: aquamarine;
+    padding-top: 15%;
+    margin: 0%;
+    font-size: 450%;
+}
+
+#subtitulo{
+    color: cadetblue;
+    font-size: 150%;
+    font-weight: 100;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 20px;
+    padding-bottom:40px;
+    border-top: 3pt white solid;
+}
+
+#acao{
+    color: white;
+    border:2px white solid;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
