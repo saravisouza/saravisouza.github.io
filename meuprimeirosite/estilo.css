@@ -1,0 +1,161 @@
+html, body{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+header{
+    background-color:white;
+    color: white;
+    height: 91px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+#logo{
+    width: 20%;
+    position: absolute;
+    top: 10%;
+    margin-left: 5%;
+
+}
+#menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+}
+li {
+    float: left;
+    padding: 36 12 36 12;
+}
+li:hover {
+    background-color: #208C3B;
+}
+#imagem_fundo{
+    background: url("fundo.png.png");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    text-align: center
+}
+#titulo{
+    color: white;
+    padding-top: 20%;
+    font-size: 70px;
+    line-height: 0.6;
+}
+
+#subtitulo{
+    color: white;
+    padding-left: 30%;
+    padding-right: 30%;
+    border-top: 3px solid white;
+    text-shadow: black;
+}
+
+#acao{
+    color: white;
+    border: 1px white solid;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.icone{
+    width: 68px;
+}
+
+section{
+    padding: 20px;
+    float: left;
+}
+.destaque{
+    background-color: #f7f7f7;
+}
+
+.imgeco {
+    width: 73%;
+}
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.dois{
+    width: 40%;
+}
+.cta {
+    border: 1px solid white;
+    border-radius: 8px;
+    color: white;
+    padding: 10 20 10 20;
+    text-decoration: initial;
+    font-size: 20px;
+}
+.quatro {
+    float: right;
+    padding: 0 5%;
+    position: relative;
+    width: 15%;
+}
+.tres {
+ width: 29%;
+ padding: 0 2%;
+}
+.justificado{
+    text-align: justify;
+}
+.center{
+    text-align: center;
+}
+footer {
+    background-color: #208C3B;
+    color: white;
+    float: left;
+    width: 100%;
+    text-align: center
+
+}
+@media (max-width: 668px) {
+    #menu {
+        visibility: hidden;
+    }
+    .coluna, .dois, .tres, .quatro {
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+    #logodiv {
+        width: 100%;
+        border: 1px solid red;
+        position: relative;
+        text-align: center;
+    }
+    #logo {
+        margin-left: 0px;
+        transform: translate(-50%);
+    }
+}
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.creditos {
+    width: 20%;
+    margin-left: 40px;
+}
+
+.coluna01 {
+    padding-top: 40px;
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.contato{
+    margin-top: 1px;
+    width: 45px;
+}
